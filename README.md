@@ -23,3 +23,4 @@ encoder.Encode("-y -i INPUT_PATH -c:v libx264 -crf 24 OUTPUT PATH");
 - [ ] Audo encoding support
 - [ ] An easy way of knowing what went wrong if an encoding failed
 - [ ] Classes for creating arguments
+- [ ] A wrapper for ffprobe (to get media info)
