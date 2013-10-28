@@ -1,7 +1,7 @@
 ﻿/*
  * VideoEncoder.cs
  * SharpFFmpegEnc by MightyNerd
- * Licenced under GPL
+ * Licenced under LGPL
  * 
  * This is the main class for video encoding using ffmpeg
 */
