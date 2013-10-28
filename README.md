@@ -8,13 +8,18 @@ I've wanted a simple ffmpeg wrapper to use in some of my projects. I could't fin
 
 ###Usage
 ```Csharp
+//Create a VideoEncoder
 VideoEncoder encoder = new VideoEncoder("C:\ffmpeg.exe");
 
 //Add event handlers
-encoder.EventLineRead += encoder_EventLineRead;
 encoder.EventEncodingProgressChanged += encoder_EventEncodingProgressChanged;
 encoder.EventEncodingCompleted += encoder_EventEncodingCompleted;
 
 //Start the encoding
 encoder.Encode("-y -i INPUT_PATH -c:v libx264 -crf 24 OUTPUT PATH");
 ```
+
+###This i would like to add
+- [ ] Audo encoding support
+- [ ] An easy way of knowing what went wrong if an encoding failed
+- [ ] Classes for creating arguments
