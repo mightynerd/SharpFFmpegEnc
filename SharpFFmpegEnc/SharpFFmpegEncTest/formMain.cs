@@ -3,6 +3,7 @@
  * Licenced under LGPL
  * 
  * This is an example program used to test the library
+ * 
 */
 
 using System;
@@ -28,14 +29,14 @@ namespace SharpFFmpegEncTest
         {
             //Create a VideoEncoder and launch it with proper arguments
             //Remember to change the ffmpeg, input and output path!
-            SharpFFmpegEnc.VideoEncoder encoder = new SharpFFmpegEnc.VideoEncoder("D:\\Program\\FFmpeg\\ffmpeg.exe");
+            SharpFFmpegEnc.VideoEncoder encoder = new SharpFFmpegEnc.VideoEncoder("ffmpeg.exe");
 
             //Assign a method to each event
             encoder.EventLineRead += encoder_EventLineRead;
             encoder.EventEncodingProgressChanged += encoder_EventEncodingProgressChanged;
             encoder.EventEncodingCompleted += encoder_EventEncodingCompleted;
 
-            encoder.Encode("-y -i D:\\Archive\\Legal\\big_buck_bunny_1080p_h264.mkv -c:v libx264 -crf 30 D:\\Archive\\Legal\\DELETE.mkv");
+            encoder.Encode("-y -i INPUT_PATH -c:v libx264 -crf 30 OUTPUT PATH");
         }
 
         private void encoder_EventEncodingCompleted(int exitCode, string fullOutput)
