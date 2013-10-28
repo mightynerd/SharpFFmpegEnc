@@ -3,10 +3,10 @@ SharpFFmpegEnc
 
 An ffmpeg wrapper for .NET languages 
 
-#Introduction
+###Introduction
 I've wanted a simple ffmpeg wrapper to use in some of my projects. I could't find any existing wrapper that suited me so I decided to write my own.
 
-#Usage
+###Usage
 ```Csharp
 VideoEncoder encoder = new VideoEncoder("C:\ffmpeg.exe");
 
