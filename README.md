@@ -18,6 +18,7 @@ encoder.EventEncodingCompleted += encoder_EventEncodingCompleted;
 //Start the encoding
 encoder.Encode("-y -i INPUT_PATH -c:v libx264 -crf 24 OUTPUT PATH");
 ```
+The EventEncodingProgressChanged event provides variables like current frame, frame rate, size (in kB), time and bitrate (in kb/s).
 
 ###This i would like to add
 - [ ] Audo encoding support
