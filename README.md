@@ -20,6 +20,6 @@ encoder.Encode("-y -i INPUT_PATH -c:v libx264 -crf 24 OUTPUT PATH");
 ```
 
 ###This i would like to add
-- [x] Audo encoding support
+- [ ] Audo encoding support
 - [ ] An easy way of knowing what went wrong if an encoding failed
 - [ ] Classes for creating arguments
