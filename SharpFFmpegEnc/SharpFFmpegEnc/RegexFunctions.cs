@@ -1,7 +1,7 @@
 ﻿/*
  * RegexFunctions.cs
  * SharpFFmpegEnc by MightyNerd
- * Licenced under GPL
+ * Licenced under LGPL
  * 
  * This class contains static functions that extract encoding
  * information using regular expressions
