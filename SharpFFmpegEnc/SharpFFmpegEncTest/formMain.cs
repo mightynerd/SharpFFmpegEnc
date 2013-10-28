@@ -1,6 +1,6 @@
 ﻿/*
  * SharpFFmpegEnc by MightyNerd
- * Licenced under GPL
+ * Licenced under LGPL
  * 
  * This is an example program used to test the library
 */
