@@ -1,0 +1,11 @@
+Unrecognized option
+Invalid argument
+Option not found
+Error splitting the argument list
+No such file or directory
+At least one output file must be specified
+Unable to find a suitable output format
+Error
+Error while opening encoder
+already exists
+Unknown encoder
